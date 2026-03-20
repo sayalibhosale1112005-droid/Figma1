@@ -1,0 +1,173 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+         .navigation{
+            height: 8vh;
+            background-color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            border: 1px solid black;
+         }
+
+         .box1{
+            border: 1px solid black;
+            height: 100%;
+         }
+         .corner{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            right:10%;
+            width: 30%;
+            height: 100%;
+         }
+
+         h3{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+         }
+
+         .right-corner{
+            background-color: black;
+            color: white;
+            width: 10%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: 0%;
+         }
+
+         .box2{
+            background-image: url("https://images.pexels.com/photos/163864/santorini-oia-greece-travel-163864.jpeg");
+            border: 1px solid black;
+            background-repeat: no-repeat;
+            object-fit: cover;
+            background-size: cover;
+            height: 90%;
+            position: relative;
+         }
+
+         .mid-line{
+            color:white;
+            display: flex;
+           justify-content: center;
+           align-items: center;
+            font-size: 30px;
+            margin-top: 15%;
+         }
+         .box3{
+            margin: 1%;
+            background-color:rgb(186, 181, 181);
+            height: 30%;
+         }
+
+         .gallery{
+            display: flex;
+            justify-content: start;
+            padding: 1em;
+         }
+         #view{
+            font-size: 1.5em;
+         }
+         .box4{
+            height: 40%;
+            display:flex;
+            justify-content: space-evenly;
+         }
+         .sub-box4{
+            height: 80%;
+            width: 20%;
+            border: 2em solid rgb(207, 151, 151);
+            margin-bottom: 2em;
+         }
+
+         #img1{
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+            
+         }
+         .sub-box41{
+            height:70%;
+            width:15%;
+            padding: 1em;
+      
+         }
+          #img2{
+            height: 100%;
+            width:100%;
+            object-fit: fill;
+          
+         }
+         .sub-box42{
+            height: 75%;
+            width: 18%;
+            border: 1px solid black;
+         
+         }
+          #img3{
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+         }
+      
+         .sub-box43{
+            height: 85%;
+            width: 25%;
+            border: 1px solid black;
+         
+         }
+          #img4{
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+         }
+
+         .last-img{
+            background-image: url("https://images.pexels.com/photos/7780134/pexels-photo-7780134.jpeg");
+            border: 1px solid black;
+            background-repeat: no-repeat;
+            object-fit: cover;
+            background-size: cover;
+            height: 75%;
+            margin: 2em 0em 0em 0em;
+            position: relative;
+         }
+
+         .last{
+            height: 25%;
+            background-color: black;
+            padding: 2em;
+         }
+         h5{
+           margin:2em 0em 0em 1.5em;
+           font-size: 1em;
+           color:white;
+         }
+
+         h1{
+            font-size: 2.5em;
+            margin: 0.5em 0em 0em 0.5em;
+            color:white;
+         }
+         
+         button{
+            background-color: white; 
+            font-color:black;
+             padding:1em; 
+             margin-left:1rem;
+             border-radius: 2em;
+
+         }
+         .l-line{
+            color: white;
+            width: 25%;
+            line-height: 2em;
+         }
